@@ -229,7 +229,7 @@ class _HomeState extends State<Home> {
                               enabled: enableDisableTxt ? true : false,
                               controller: _controllerJ1,
                               decoration: InputDecoration(
-                                labelText: 'Jugador 1',
+                                labelText: 'primer jugador',
                               )),
                         ),
                         Padding(
@@ -238,7 +238,7 @@ class _HomeState extends State<Home> {
                               enabled: enableDisableTxt ? true : false,
                               controller: _controllerJ2,
                               decoration: InputDecoration(
-                                labelText: "Jugador 2",
+                                labelText: "segundo jugador",
                               )),
                         ),
                         Row(
